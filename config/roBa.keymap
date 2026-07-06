@@ -91,7 +91,7 @@
 &trans                  &trans  &trans  &kp LEFT_WIN  &trans        &trans             &kp BACKSPACE  &trans                                                                     &kp PIPE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         ARROW {
@@ -113,7 +113,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &kp BACKSPACE  &trans                                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         SCROLL {
