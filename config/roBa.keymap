@@ -90,6 +90,8 @@
 &mt LEFT_SHIFT SLASH    &kp N1  &kp N2  &kp N3        &kp EQUAL     &kp BACKSLASH      &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &mt RIGHT_SHIFT BACKSLASH
 &trans                  &trans  &trans  &kp LEFT_WIN  &trans        &trans             &kp BACKSPACE  &trans                                                                     &kp PIPE
             >;
+
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         ARROW {
